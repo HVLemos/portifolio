@@ -109,7 +109,7 @@ p{
 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
     #header{
         padding-top: 74px 0 106px 0;
     } 
