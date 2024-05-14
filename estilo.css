@@ -66,7 +66,7 @@ p{
 
 }
 .perfil-sobre{
-    width: 635px;
+    max-width: 635px;
     
 }
 
