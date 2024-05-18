@@ -42,7 +42,15 @@ p{
     color: #333;
 }
 
-/*botao*/
+li{
+    color: #000000;
+    line-height: 34px;
+    font-size: 20px;
+    font-weight: 400
+        
+}
+
+/*default*/
 
 .botao{
     background-color: #0699a6;
@@ -62,6 +70,10 @@ p{
     justify-content: space-between;
 }
 
+ul{
+    list-style: none;
+    padding: 0;
+}
 
 /*header*/
 .perfil{
@@ -83,6 +95,28 @@ p{
     padding: 180px 0 209px 0;
     background-color: #9E8C6c11;
 }
+
+/*MAIN*/
+#main{
+    padding-top: 96px;
+}
+.skillset,
+.awards,
+.careertraits,
+.recentworks{
+    margin-bottom: 100px;
+}
+
+#main .container a{
+    color: #0699a6;
+    line-height: 34px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700
+    
+    
+}
+/*footer*/
 
 #footer{
    width: 100%;
