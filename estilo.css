@@ -144,12 +144,11 @@ align-items: baseline;
 }
 
 .sobre{
-    width: 635px;
-    padding-left: 80px;
+    max-width: 635px;
 }
 
 .skils{
-    width: 350px;
+    max-width: 350px;
 }
 
 /*footer*/
@@ -250,7 +249,9 @@ align-items: baseline;
         font-weight: 400
      }
 
-
+     .skils, .sobre{
+        max-width: 100%;
+     }
 
 }
  
