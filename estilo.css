@@ -237,9 +237,11 @@ align-items: baseline;
      }
 
      #main .container p{
+        max-width: 100%;
         font-size: 18px;
         line-height: 30px;
         font-weight: 400
+        
      }
 
      #main .container li{
@@ -247,6 +249,8 @@ align-items: baseline;
         line-height: 30px;
         font-weight: 400
      }
+
+
 
 }
  
