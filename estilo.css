@@ -112,10 +112,45 @@ ul{
     line-height: 34px;
     font-size: 20px;
     text-decoration: none;
-    font-weight: 700
-    
-    
+    font-weight: 700     
 }
+
+.titleinfo{
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+}
+
+.titleinfo p{
+    text-align: right;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 400
+}
+
+.abouteme,
+.info,
+.visual,
+.lead,
+.ui,
+.barra{
+    margin-bottom: 66px;
+}
+
+.barra{
+    width: 71px;
+    height: 10px;
+    background-color: #0699a6;
+}
+
+.sobre{
+    width: 635px;
+}
+
+.skils{
+    width: 350px;
+}
+
 /*footer*/
 
 #footer{
@@ -182,6 +217,21 @@ ul{
         line-height: 36px;
      }
      
+     h2{
+        font-size: 32px;
+        line-height: 42px;
+     }
+
+     h3{
+        font-size: 18px;
+        line-height: 24px;
+     }
+     
+     #main .experience{
+        font-size: 18px;
+        line-height: 30px;
+
+     }
 
 }
  
