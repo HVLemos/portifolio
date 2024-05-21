@@ -253,5 +253,11 @@ align-items: baseline;
         max-width: 100%;
      }
 
+     .barra{
+        width: 54px;
+        line-height: 10px;
+        background-color: #0699a6;
+     }
+
 }
  
