@@ -64,10 +64,11 @@ li{
 }
 
 .container{
-    max-width: 1024px;
+    max-width: 1110px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    margin-top: 96px;
 }
 
 ul{
@@ -129,10 +130,8 @@ align-items: baseline;
 }
 
 .abouteme,
-.info,
-.visual,
-.lead,
-.ui,
+.experience,
+.education,
 .barra{
     margin-bottom: 66px;
 }
@@ -144,12 +143,13 @@ align-items: baseline;
 }
 
 .sobre{
-    max-width: 635px;
+    max-width: 640px;
 }
 
 .skils{
     max-width: 350px;
 }
+
 
 /*footer*/
 
