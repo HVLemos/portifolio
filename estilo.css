@@ -21,7 +21,7 @@ h3{
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
-  color: #9E8C6C;
+  color: #0663A6;
   letter-spacing: 2px;
   margin: 0 0 10px 0;
 
@@ -42,10 +42,18 @@ p{
     color: #333;
 }
 
-/*botao*/
+li{
+    color: #000000;
+    line-height: 34px;
+    font-size: 20px;
+    font-weight: 400
+        
+}
+
+/*default*/
 
 .botao{
-    background-color: #0699a6;
+    background-color: #0663A6;
     margin: 10px 0;
     font-size: 18px;
     font-weight: 900;
@@ -56,12 +64,17 @@ p{
 }
 
 .container{
-    max-width: 1024px;
+    max-width: 1110px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    margin-top: 96px;
 }
 
+ul{
+    list-style: none;
+    padding: 0;
+}
 
 /*header*/
 .perfil{
@@ -81,13 +94,69 @@ p{
 #header{
     width: 100%;
     padding: 180px 0 209px 0;
-    background-color: #9E8C6c11;
+    background-color: #8DADC511;
 }
+
+/*MAIN*/
+#main{
+    padding-top: 96px;
+}
+.skillset,
+.awards,
+.careertraits,
+.recentworks{
+    margin-bottom: 100px;
+}
+
+#main .container a{
+    color: #8DADC5;
+    line-height: 34px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700     
+}
+
+.titleinfo{
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+}
+
+.titleinfo p{
+    text-align: right;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 400
+}
+
+.abouteme,
+.experience,
+.education,
+.barra{
+    margin-bottom: 66px;
+}
+
+.barra{
+    width: 71px;
+    height: 10px;
+    background-color: #0663A6;
+}
+
+.sobre{
+    max-width: 640px;
+}
+
+.skils{
+    max-width: 350px;
+}
+
+
+/*footer*/
 
 #footer{
    width: 100%;
    height: 547px;
-   background-color: #9E8C6c11;
+   background-color: #8DADC511;
 }
 #footer .container{
     align-items: center;
@@ -96,7 +165,7 @@ p{
 }
 #footer .container a{
     text-decoration: none;
-    color: #0699a6;
+    color: #0663A6;
     line-height: 46px;
     font-size: 36px;
     text-align: center;
@@ -111,6 +180,7 @@ p{
 /*TABLET e MOBILE*/
 
 @media screen and (max-width: 768px){
+    /*header*/
     h1{
         font-size: 56px;
         line-height: 46px;
@@ -137,7 +207,8 @@ p{
         width: 160px;
         margin-bottom: 20px;
      }
-
+ 
+     /*footer*/
      h4{
         font-size: 40px;
         line-height: 50px;
@@ -148,6 +219,46 @@ p{
         line-height: 36px;
      }
      
+     /*main*/
+     h2{
+        font-size: 32px;
+        line-height: 42px;
+     }
+
+     h3{
+        font-size: 18px;
+        line-height: 24px;
+     }
+
+     #main .container{
+        flex-direction: column-reverse;
+        align-items: center;
+     }
+
+     #main .container p{
+        max-width: 100%;
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 400
+        
+     }
+
+     #main .container li{
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 400
+     }
+
+     .skils, .sobre{
+        max-width: 100%;
+        padding: 0 20px;
+     }
+
+     .barra{
+        width: 54px;
+        line-height: 10px;
+        background-color: #0663A6;
+     }
 
 }
  
